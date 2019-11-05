@@ -1,0 +1,15 @@
+<html>
+<head>
+<script src='suncalc.js'></script>
+<script src='tenpomun.js'></script>
+</head>
+<body>
+<script>
+	var lat=40,
+		lng=-5,
+		tenpoNi=new Date('2019-09-25T12:20:00Z');
+	[tenpo,suno,mun]=tenpoSeme(tenpoNi,lat,lng);
+	document.write('tenpo ni li ni:<br>tenpo '+tenpo+'<br>'+suno+'<br>'+mun);
+</script>
+</body>
+</html>
